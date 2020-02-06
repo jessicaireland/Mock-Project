@@ -1,9 +1,73 @@
 body {
-    text-align: center;
     font-family: 'Poppins', sans-seri;
-    background-color: lightgoldenrodyellow;
+    background-color: rgb(235, 226, 241);
 }
+   img {   
+    background-image: url("https://C.com/upload/2018/02/Coffee-with-chocolate-chip-cookie-and-coffee-beans-Stock-Photo.jpg");
+    background-position: top left;
+    background-repeat: no-repeat;
+    margin-left: 10px;
+    
+   }
 h1 { 
     color: brown;
     font-family: 'Marck Script', cursive;
+    font-weight: 700;
+    text-align: center;
 }    
+h3 {
+    text-align: center;
+}
+
+ul{
+    list-style: none;
+    list-style-position: outside;
+}
+.chip-pic{
+    width: 50px;
+    height: 50px;
+    border: 1px solid brown;
+    margin-left: 2px;
+    padding: 2px;
+    
+}
+#chip{
+    width: 400px;
+    height: 100px;
+    background-color: white;
+    border: 4px solid brown;
+    margin: 2px 2px 2px 2px;
+
+}
+.double-pic{
+    width: 50px;
+    height: 50px;
+    border: 1px solid brown;
+    margin-left: 2px;
+    padding: 2px;
+}
+#double{
+    width: 400px;
+    height: 100px;
+    background-color: white;
+    border: 4px solid brown;
+    margin: 2px 2px 2px 2px;
+}
+.snick-pic{
+    width: 50px;
+    height: 50px;
+    border: 1px solid brown;
+    margin-left: 2px;
+    padding: 2px;
+}
+#snick{
+    width: 400px;
+    height: 100px;
+    background-color: white;
+    border: 4px solid brown;
+    margin: 2px 2px 2px 2px;
+}
+li, p{ 
+    text-align: auto;
+    margin: 2px;
+}
