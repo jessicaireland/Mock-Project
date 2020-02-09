@@ -1,6 +1,15 @@
-body {
-    font-family: 'Poppins', sans-seri;
+
+@font-face {
+    src: url('YellowMagician-webfont.woff') format('woff');
+    font-family: yellowmagic;
+}
+
+body {    
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
     background-color: rgb(235, 226, 241);
+    font-weight: normal;
+    font-style: normal;
 }
 #coffee {
     color: rgb(49, 3, 49);
@@ -29,10 +38,12 @@ body {
        cursor: pointer;
    }
 h1 { 
-    color: brown;
-    font-family: 'Marck Script', cursive;
-    font-weight: 700;
+    font-family: yellowmagic;
+    font-weight: bold;
     text-align: center;
+    font-weight: normal;
+    font-style: normal;
+    color: brown;
 }    
 h3 {
     text-align: center;
@@ -97,9 +108,5 @@ ul{
     font-size: 16px;
     margin: 4px 2px;
     cursor: pointer;
-
 }
-li, p{ 
-    text-align: auto;
-    margin: 2px;
-}
+ 
