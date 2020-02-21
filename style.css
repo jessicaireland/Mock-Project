@@ -1,8 +1,5 @@
 
-@font-face {
-    src: url('YellowMagician-webfont.woff') format('woff');
-    font-family: yellowmagic;
-}
+
 
 body {    
     font-family: 'Montserrat', sans-serif;
@@ -10,48 +7,77 @@ body {
     background-color: rgb(235, 226, 241);
     font-weight: normal;
     font-style: normal;
-}
-#coffee {
-    color: rgb(49, 3, 49);
-}
-.intro {
-    text-align: center;
-}
-.intro + p {
-    font-weight: bold;
-}
-   img {   
-    background-image: url("https://C.com/upload/2018/02/Coffee-with-chocolate-chip-cookie-and-coffee-beans-Stock-Photo.jpg");
-    background-position: top left;
-    background-repeat: no-repeat;
-    margin-left: 10px;
-   }
-   .more-info {
-       background-color: rebeccapurple;
-       border: none;
-       color: white;
-       text-align: center;
-       text-decoration: none;
-       display: inline-block;
-       font-size: 20px;
-       margin: 4px 2px;
-       cursor: pointer;
-   }
-h1 { 
-    font-family: yellowmagic;
-    font-weight: bold;
-    text-align: center;
-    font-weight: normal;
-    font-style: normal;
-    color: brown;
-}    
-h3 {
-    text-align: center;
+    box-sizing: border-box;
 }
 
-ul{
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid brown;
+    margin: 10px;
+}
+
+h1 { 
+    font-family: 'Pacifico', cursive;
+    font-size: 50px;
+    text-transform: uppercase;
+    color: brown;
+    padding: 10px;
+}
+
+.logo img {
+    border-radius: 50%;
+    width: 100px;
+    padding: 30px;
+    max-width: 100%;
+    
+}
+
+.main-nav {
+    display: -webkit-flex;
+    display: flex;
+  }
+  .main-nav li:first-child {
+    margin-right: auto;
+    border-radius: 50%;
+    padding: 20px;
+  }
+  .main-nav a {
+    margin: 10px;
+    border-radius: 5px;
+    background: rgb(167, 63, 103);
+    color: white;
+      display: block;
+      padding: 15px;
+      text-decoration: none;
+  }
+  
+.coffee {
+    display: flex;
+    justify-content: center;
+}
+h3 {
+    text-align: center;
+    font-size: 30px;
+    color: rgb(49, 3, 49);
+}
+
+.intro {
+    text-align: center;;
+    
+}
+
+
+
+
+ul {
     list-style: none;
     list-style-position: outside;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
 }
 
 .chip-pic {
@@ -59,10 +85,9 @@ ul{
     height: 50px;
     border: 1px solid brown;
     margin-left: 2px;
-    padding: 2px;
-    
-    
+    padding: 2px;    
 }
+
 #chip{
     width: 400px;
     height: 200px;
@@ -109,4 +134,26 @@ ul{
     margin: 4px 2px;
     cursor: pointer;
 }
- 
+
+@media only screen and (min-width: 400px){
+    .coffee {
+        width: 100%;
+    }
+    .coffee > img {
+        width: 100%;
+        object-fit: cover;
+        height: 20px;
+    }
+    .header {
+        display: flex;
+        flex-wrap: wrap;
+        
+        align-items: center;
+        border: 2px solid brown;
+        margin: 10px;
+    }
+    .main-nav {
+        display: flex;
+        flex-wrap: wrap;
+      }
+}
