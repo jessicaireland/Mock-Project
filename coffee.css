@@ -1,0 +1,76 @@
+@font-face {
+    src: url('YellowMagician-webfont.woff') format('woff');
+    font-family: yellowmagic;
+}
+
+
+
+
+body {    
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    background-color: rgb(235, 226, 241);
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: rgb(235, 226, 241);
+    box-sizing: border-box;
+}
+
+.top-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end; 
+    margin: 30px;
+    
+      
+}
+.top-container > div {
+    padding: 30px;
+}
+
+h1 {
+    text-align: center;
+    color: brown;
+    border-bottom: 1px solid brown;
+}
+.post {
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+    border: 2px solid brown;
+}
+
+#coffee {
+    color: rgb(49, 3, 49);
+}
+.intro {
+    text-align: center;
+}
+.intro + p {
+    font-weight: bold;
+}
+   
+h1 { 
+    font-family: yellowmagic;
+    font-weight: bold;
+    text-align: center;
+    font-weight: normal;
+    font-style: normal;
+    color: brown;
+}    
+h3 {
+    text-align: center;
+}
+
+ul{
+    list-style: none;
+    list-style-position: outside;
+}
+
+
