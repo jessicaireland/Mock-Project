@@ -1,2 +1,0 @@
-# box-model
-# CSS-selectors
