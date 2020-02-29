@@ -1,0 +1,180 @@
+@font-face {
+    src: url('YellowMagician-webfont.woff') format('woff');
+    font-family: yellowmagic;
+}
+
+
+
+
+body {    
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    background-color: rgb(235, 226, 241);
+    font-weight: normal;
+    font-style: normal;
+    box-sizing: border-box;
+}
+
+/* .heading { 
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+  }  */
+
+ 
+  
+  .nav-toggle {
+    display:none;
+  }
+  
+  nav {
+    position: absolute;
+    text-align: left;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    display: none;
+  }
+  
+  
+  nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  nav li {
+    margin-bottom: 1em;
+    margin-left: 1em;
+    list-style: none;
+  }
+  
+  nav a {
+    color: brown;
+    text-decoration: none;
+    font-size: 1.2rem;
+    text-decoration: uppercase;
+  }
+  
+  .nav-toggle:checked ~ nav {
+    display: block;
+  }
+
+  .nav-toggle-label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    display: flex;
+    align-items: center;
+  }
+  
+  .nav-toggle-label span,
+  .nav-toggle-label span::before,
+  .nav-toggle-label span::after {
+    display: block;
+    height: 2px;
+    width: 2em;
+    background: brown;
+    border-radius: 2px;
+    position: relative;
+  } 
+
+.nav-toggle-label span::before,
+.nav-toggle-label span::after {
+  content: '';
+  position: absolute;
+}
+
+.nav-toggle-label::before {
+  bottom: 9px;
+}
+
+.nav-toggle-label::after {
+  top: 9px;
+} 
+
+
+.top-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end; 
+    margin: 30px;
+    
+      
+}
+.top-container > div {
+    padding: 30px;
+}
+
+h1 {
+    text-align: center;
+    color: brown;
+    border-bottom: 1px solid brown;
+}
+main {
+    display: flex;
+    flex-direction: column;
+}
+.post {
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+    border: 2px solid brown;
+}
+
+.coffee {
+    color: rgb(49, 3, 49);
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+.intro {
+    text-align: center;
+}
+.intro + p {
+    font-weight: bold;
+}
+   
+h1 { 
+    font-family: yellowmagic;
+    font-weight: bold;
+    text-align: center;
+    font-weight: normal;
+    font-style: normal;
+    color: brown;
+}    
+h3 {
+    text-align: center;
+}
+
+ul{
+    list-style: none;
+    list-style-position: outside;
+}
+@media (min-width: 401px) {
+    .nav-toggle-label {
+      display: none;
+    }
+  
+    nav {
+      display: block;
+      justify-content: flex-end;
+    }
+  
+    li {
+      margin-right: 2px;;
+    }
+  
+    ul {
+      width: 50%;
+      display: flex;
+      justify-content: space-between;
+    }
+    
+  }
+  
+  
+
+

@@ -6,9 +6,11 @@
 }
 
 body{
-  background: #7f7df9;
-}
-
+  background:  rgb(235, 226, 241);
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+ }
+ 
 .contact-us{
   width: 250px;
   background: #fff;
@@ -35,10 +37,11 @@ body{
   margin-bottom: 12px;
   padding: 15px 40px;
   box-sizing: border-box;
-  background: #4e0e4c;
+  background: #6722a0;
+  color: white;
   border: 0px;
   outline: none;
-  border-radius: 50px;
+  border-radius: 25px;
   display: flex;
   flex-direction: row;
 }
@@ -51,22 +54,35 @@ body{
   resize: none;
 }
 
-.btn{
+.button {
   background:#6722a0;
   text-align: center;
+  text-decoration: none;
   color: #fff;
-  padding: 12px;
+  padding: 12px 40px;
   border-radius: 25px;
   cursor: pointer;
+  font-size: 16px;
 }
 
-.btn .fas{
+.btn {
+  display: flex;
+  justify-content: center;
   margin-left: 10px;
+  margin-top: 20px;;
   font-size: 12px;
 }
 
-.form-items{
-  position: relative;
+.text-area {
+  display: flex;
+  justify-content: center;
+  margin-right: 10px;
+}
+.import-message {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  
 }
 
 .form-items .fas{
@@ -76,8 +92,8 @@ body{
   color: #9a99aa;
 }
 
-@media only screen and (min-width: 787px) {
-  .form-items .input.message{
+/* @media only screen and (min-width: 787px) {
+  .form-items .input-message{
     
     border-radius: 15px;
     padding: 15px 15px;
@@ -86,6 +102,4 @@ body{
     width: 100%;
     height: auto;
   }
-}
-
-
+} */
