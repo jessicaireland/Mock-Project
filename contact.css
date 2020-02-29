@@ -1,0 +1,105 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+body{
+  background:  rgb(235, 226, 241);
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+ }
+ 
+.contact-us{
+  width: 250px;
+  background: #fff;
+  padding: 50px;
+  margin: 100px auto;
+  border-radius: 30px;
+  position: relative;
+}
+
+.title h1{
+  color: #6722a0;
+  letter-spacing: 2px;
+  margin-bottom: 25px;
+  text-align: center;
+}
+
+.form,
+.form-items{
+  width: 100%;
+}
+
+.form-items .input{
+  width: 100%;
+  margin-bottom: 12px;
+  padding: 15px 40px;
+  box-sizing: border-box;
+  background: #6722a0;
+  color: white;
+  border: 0px;
+  outline: none;
+  border-radius: 25px;
+  display: flex;
+  flex-direction: row;
+}
+
+.form-items .input.message{
+  height: 125px;
+  border-radius: 15px;
+  margin-bottom: 30px;
+  padding: 15px 15px;
+  resize: none;
+}
+
+.button {
+  background:#6722a0;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  padding: 12px 40px;
+  border-radius: 25px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  margin-left: 10px;
+  margin-top: 20px;;
+  font-size: 12px;
+}
+
+.text-area {
+  display: flex;
+  justify-content: center;
+  margin-right: 10px;
+}
+.import-message {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  
+}
+
+.form-items .fas{
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  color: #9a99aa;
+}
+
+/* @media only screen and (min-width: 787px) {
+  .form-items .input-message{
+    
+    border-radius: 15px;
+    padding: 15px 15px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+  }
+} */
